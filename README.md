@@ -2,8 +2,13 @@
 Start up code to get your raspberry pi to ssh via ngrok after it has connected to the internet.
 
 ## Setup
-Create a file on your desktop ``startup.sh``
+Create a file on your desktop:
+```bash
+cd Desktop/
+nano startup.sh
+```
 
+Add whatever bash code you want here. In my case it's ssh via ngrok:
 ```bash
 #!/bin/bash
 ngrok config add-authtoken <NGROK KEY>
