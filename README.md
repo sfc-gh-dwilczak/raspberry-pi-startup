@@ -44,7 +44,7 @@ Now reboot and see if it works by connection to your ssh:
 sudo reboot
 ```
 
-Connect:
+Connect from your other pc:
 ```
 ssh -p 22830 larry@9.tcp.ngrok.io
 ```
